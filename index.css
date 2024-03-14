@@ -1,0 +1,33 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 50px;
+  color: #f8fafc;
+  font-family: roboto;
+}
+.card-container {
+  display: flex;
+}
+.images {
+  width: 300px;
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 30px;
+    color: #f8fafc;
+    font-family: roboto;
+  }
+  .card-container {
+    display: flex;
+  }
+  .images {
+    width: 100px;
+  }
+}
